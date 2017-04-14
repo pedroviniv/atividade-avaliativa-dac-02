@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="jpa-bank-pu" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.User</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.Client</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.converter.LocalDateTimeConverter</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.converter.LocalDateConverter</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.account.Account</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.account.CurrentAccount</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.account.SavingAccount</class>
+    <class>br.edu.ifpb.dac.jpa.bank.shared.domain.account.AccountEntry</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/jpa-bank"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="123456"/>
+      <property name="javax.persistence.schema-generation.database.action" value="drop-and-create"/>
+    </properties>
+  </persistence-unit>
+</persistence>
