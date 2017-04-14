@@ -1,0 +1,10 @@
+br\edu\ifpb\dac\jpa\oficina\core\services\ConsertoServiceImpl.class
+br\edu\ifpb\dac\jpa\oficina\core\services\FuncionarioServiceImpl.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\FuncionarioDAO.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\FuncionarioDAOJpaImpl.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\OficinaDAO.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\config\DataSourceDefinitionConfig.class
+br\edu\ifpb\dac\jpa\oficina\core\services\OficinaServiceImpl.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\ConsertoDAO.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\OficinaDAOJpaImpl.class
+br\edu\ifpb\dac\jpa\oficina\core\dao\ConsertoDAOJpaImpl.class
