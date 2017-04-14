@@ -12,7 +12,6 @@
     <modules>
         <module>jpa-oficina-shared</module>
         <module>jpa-oficina-core</module>
-        <module>jpa-oficina-jse</module>
     </modules>
     
 </project>
